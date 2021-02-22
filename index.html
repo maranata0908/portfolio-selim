@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>웹디자이너 김세림 포트폴리오</title>
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/grid.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- mobile css -->
+  <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 767px)">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <!-- AOS  -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <!-- fancy box -->
+  <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+  <!-- 사용자 자바스크립트 -->
+  <script src="./js/main.js"></script>
+</head>
+<body>
+  <header id="main_header">
+    <div class="container">
+      <h1><a href="./">KIM SE LIM.</a></h1>
+      <nav id="gnb">
+        <ul>
+          <li><a href="./">home</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#works">works</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </div><!-- end container -->
+  </header>
+
+  <section id="visual">
+    <div class="container">
+      <div class="title-group">
+        <h2>web designer <br>
+          <span>KIM SE LIM</span>
+        </h2>
+      </div>
+    </div><!-- end container -->
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <article class="photo col_6" data-aos="fade-right">
+          <img src="http://placeimg.com/370/430/animals" alt="사진">
+        </article>
+        <article class="text col_6" data-aos="fade-left" data-aos-offset="300"></article>
+          <h2>Profile          </h2>
+          <p>
+            <small>이름</small>&nbsp;&nbsp;&nbsp;김세림 KIM SE LIM<br>
+            <small>생년월일</small>&nbsp;&nbsp;&nbsp;1999년 9월 8일 (만21세)<br>
+            <small>핸드폰</small>&nbsp;&nbsp;&nbsp;010-8464-3168<br>
+            <small>이메일</small>&nbsp;&nbsp;&nbsp;rlatpfla0908@daum.net<br>
+            </p>
+          <h2>History</h2>
+          <p>
+            <small>2018.03</small>&nbsp;&nbsp;&nbsp;통진고등학교 졸업<br>
+            <small>2021.02</small>&nbsp;&nbsp;&nbsp;웹디자이너 과정평가형 수료
+            </p>
+            <h2>Certificate</h2>
+            <small>2015.10</small>&nbsp;&nbsp;&nbsp;정보기술자격 ITQ 한글<br>
+            <small>2015.10</small>&nbsp;&nbsp;&nbsp;정보기술자격 ITQ PPT<br>
+            <small>2018.03</small>&nbsp;&nbsp;&nbsp;1종보통 면허증<br>
+            <small>2021.04</small>&nbsp;&nbsp;&nbsp;웹디자인기능사<br>
+
+        </article>
+      </div>
+    </div><!-- end container -->
+  </section>
+
+  <section id="works">
+    <div class="container">
+      <h2>MY WORKS</h2>
+      <div class="tab-group">
+        <button id="btn-all">all</button>
+        <button id="btn-web">web design</button>
+        <button id="btn-homepage">homepage</button>
+      </div>
+      <!-- 작품 목록 -->
+      <ul class="list row">
+        <li class="col_4 web">
+          <!-- a href 여기 작품사진(큰거) -->
+          <a data-fancybox="gallery" href="./images/work07-1.jpg">
+            <!-- img src 여기는 썹네일 작은 이미지(규격대로) -->
+            <img src="./images/work07.jpg" alt="1">
+          </a>
+        </li>
+        <li class="col_4 web">
+          <a data-fancybox="gallery" href="./images/work01-1.jpg">
+            <img src="./images/work01.jpg" alt="2">
+          </a>
+        </li>
+        <li class="col_4 web">
+          <a data-fancybox="gallery" href="./images/work02-1.jpg">
+            <img src="./images/work02.jpg" alt="3">
+          </a>
+        </li>
+        <li class="col_4 web">
+          <a data-fancybox="gallery" href="./images/work03-2.jpg">
+            <img src="./images/work03.jpg" alt="4">
+          </a>
+        </li>
+        <li class="col_4 homepage">
+          <a href="https://maranata0908.github.io/movis_promotion/" target="blank">
+            <img src="./images/work05.jpg" alt="5">
+          </a>
+        </li>
+        <li class="col_4 homepage">
+          <a href="https://maranata0908.github.io/megacoffee/" target="blank">
+            <img src="./images/work04.jpg" alt="6">
+          </a>
+        </li>
+      </ul>
+    </div><!-- end container -->
+  </section>
+
+</body>
+</html>
