@@ -1,0 +1,80 @@
+/* grid.css */
+* { 
+  box-sizing: border-box;
+}
+
+/* PC에만 적용 */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 1200px;
+    margin: 0 auto;
+    /* outline: 1px solid red; */
+  }
+  
+  .row {
+    overflow: hidden;
+  }
+
+  [class*=col_] {
+    /* border: 1px solid green; */
+    float: left;
+    /* padding: 20px; */
+    margin: 0 10px;
+  }
+
+  /* 
+     col = (container너비 / 그리드 수12) * 칼럼수
+     col(gutter) = ((container너비 / 12 * 칼럼수) - gutter)
+     @container_width
+     @col_width
+     @gutter_width
+  */
+  .col_1 {
+    width: calc((100% / 12 * 1) - 20px);
+  }
+
+  .col_2 {
+     width: calc((100% / 12 * 2) - 20px);
+  }
+
+  .col_3 {
+     width: calc((100% / 12 * 3) - 20px);
+  }
+
+  .col_4 {
+    width: calc((100% / 12 * 4) - 20px);
+  }
+
+  .col_5 {
+    width: calc((100% / 12 * 5) - 20px);
+  }
+
+  .col_6 {
+     width: calc((100% / 12 * 6) - 20px);
+  }
+
+  .col_7 {
+    width: calc((100% / 12 * 7) - 20px);
+  }
+
+  .col_8 {
+    width: calc((100% / 12 * 8) - 20px);
+  }
+
+  .col_9 {
+    width: calc((100% / 12 * 9) - 20px);
+  }
+
+  .col_10 {
+    width: calc((100% / 12 * 10) - 20px);
+  }
+
+  .col_11 {
+    width: calc((100% / 12 * 11) - 20px);
+  }
+
+  .col_12 {
+    width: calc((100% / 12 * 1) - 20px);
+  }
+
+}
