@@ -92,8 +92,9 @@ body {
   padding: 140px;
   padding-bottom: 140px;
   height: 690px;
-  background: #ececec;
+  /* background: #ececec; */
 }
+
 #about h2{
   font-size: 28px;
   /* margin-top: 20px; */
@@ -111,6 +112,21 @@ body {
 
 #about .row {
   overflow: visible;
+}
+#skill{
+  padding: 120px;
+  padding-bottom: 140px;
+  background: #ECECEC;
+  /* height: 690px; */
+}
+#skill h2{
+  font-size: 48px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+#skill img{
+  display: block;
+  margin: 0 auto;
 }
 
 #works {
@@ -135,8 +151,28 @@ body {
   margin-bottom: 20px;
   text-transform: uppercase;
 }
-
+#contact {
+  clear: both;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  height: 215px;
+  /* border: 1px solid yellow; */
+  background: #ECECEC;
+}
+#contact p{
+  padding-bottom: 50px;
+}
 
 @media screen & (max-width: 768px) {
   
+}
+#contact .sns { margin-top: 20px;}
+#contact .sns li {
+  padding-top: 70px;
+  display: inline-block;
+  margin-left: 25px;
+  margin-right: 25px;
 }

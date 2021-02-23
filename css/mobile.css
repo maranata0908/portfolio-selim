@@ -25,12 +25,13 @@
 #gnb a {
   display: block;
   line-height: 40px;
-  font-size: 16px;
+  font-size: 13px;
 }
 
 #gnb > ul > li {
   float: left;
-  width: 25%;
+  /* 메뉴 크기 100% / 메뉴 개수 */
+  width: 20%;
   margin: 0;
 }
 
@@ -67,5 +68,19 @@
 
 #about .photo > img {
   margin-bottom: 50px;
+  width: 100%;
+}
+
+
+
+#skill{
+  padding: 20px;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  background: #ECECEC;
+  /* height: 690px; */
+}
+
+#skill img {
   width: 100%;
 }
