@@ -94,6 +94,12 @@ body {
   height: 690px;
   /* background: #ececec; */
 }
+#about h1{
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  /* text-decoration: underline; */
+}
 
 #about h2{
   font-size: 28px;
@@ -130,8 +136,8 @@ body {
 }
 
 #works {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 80px;
+  padding-bottom: 50px;
   background: #fff;
   text-align: center;
 }
@@ -139,6 +145,34 @@ body {
 #works .list li { 
   overflow: hidden;
   margin-bottom: 20px;
+}
+#works .list .col_4 {
+  position: relative;
+  /* width: 380px; 
+    모바일은 가변이니 자동크기로...
+  */
+  /* height: 400px; 가변일때 높이 잡으면 안됨 */
+  margin-bottom: 30px;
+}
+#works li .caption {
+  /* outline: 1px solid red; */
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  background: rgba(58, 58, 58, 0.5);
+  top: 0;
+  color: #fff;    
+  text-align: center;
+  line-height: 350px;
+  /* padding-top: 150px; */
+  box-sizing: border-box;
+  transition: 0.5s;
+  opacity: 0;
+}
+#works li:hover .caption {
+  top: 0; 
+  /* transform: translateY(-200px); */
+  opacity: 1;
 }
 #works .list img {
   width: 100%;
